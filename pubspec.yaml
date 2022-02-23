@@ -1,0 +1,39 @@
+name: unsplash_demo
+description: UnSplash Demo App.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_staggered_grid_view: ^0.6.1
+  http: ^0.13.4
+  logger: ^1.1.0
+  flutter_svg: ^1.0.3
+  cached_network_image: ^3.2.0
+  simple_animations: ^4.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/share/
+
+  fonts:
+    - family: Billabong
+      fonts:
+        - asset: assets/fonts/Billabong.ttf
+
+
